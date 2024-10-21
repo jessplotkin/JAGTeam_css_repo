@@ -1,12 +1,43 @@
-/* styling for horizontal navbar */
-/* ul {
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #4B001E;
+  color: #f7f7f7;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end; 
+  /* background-color: lightgrey; */
+  padding: 10px;
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
     overflow: hidden;
-    background-color: #333;
-  } */
+    background-color: #151716;
+    display: flex; 
+    gap: 15px;
+  }
 
-html{
-  scroll-behavior: smooth;
+ul li a {
+    color: #f7f7f7;
+    text-decoration: none;
+    padding: 8px 16px; 
+    display: block;
 }
