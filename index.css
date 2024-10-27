@@ -1,0 +1,104 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+background-color: #560525;
+margin: 0.5px;
+  }
+
+  .header-navbar {
+    display: flex;
+    background-color: #560525;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .header-navbar h1 {
+    color: #f7f7f7;
+    top: 0;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end; 
+    /* background-color: lightgrey; */
+    padding: 10px;
+    
+  }
+
+  .navbar a {
+    color: white;
+  }
+  
+  .navbar a:hover {
+    background-color: lightgrey; 
+    color: black; 
+}
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 10px;
+      overflow: hidden;
+      display: flex; 
+      gap: 15px;
+    }
+  
+  ul li a {
+      color: #f7f7f7;
+      text-decoration: none;
+      padding: 8px 16px; 
+      display: block;
+  }
+
+  #Home {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr);
+    margin: 10px;
+    margin-top: 100px;
+    }
+
+  #Home p {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  height:80%;
+  width: 95%;
+  }
+
+#Home p:nth-child(4n + 1), /* Gray for the first cell of odd rows */
+#Home p:nth-child(4n + 4) { /* Gray for the second cell of even rows */
+    background-color: gray; /* Gray color */
+    color: #f7f7f7; /* Text color */
+}
+
+#Home p:nth-child(4n + 2), /* White for the second cell of odd rows */
+#Home p:nth-child(4n + 3) { /* White for the first cell of even rows */
+    background-color: white; /* White color */
+    color: #530303; /* Text color */
+}
+
+#About {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#About h2, #About h3 {
+  color: #530303;
+  font-size: 25px;
+}
+
+
+
