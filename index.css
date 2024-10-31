@@ -60,6 +60,11 @@ margin: 0.5px;
       display: block;
   }
 
+  #landing {
+
+  margin-top: 100px;
+  }
+
   #Home {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -67,6 +72,7 @@ margin: 0.5px;
     margin: 10px;
     margin-top: 100px;
     margin-bottom: 30px;
+    
     }
 
   #Home p {
@@ -81,12 +87,14 @@ margin: 0.5px;
 #Home p:nth-child(4n + 4) { /* Gray for the second cell of even rows */
     background-color: gray; /* Gray color */
     color: #f7f7f7; /* Text color */
+    border-radius: 20px;
 }
 
 #Home p:nth-child(4n + 2), /* White for the second cell of odd rows */
 #Home p:nth-child(4n + 3) { /* White for the first cell of even rows */
     background-color: white; /* White color */
     color: #530303; /* Text color */
+    border-radius: 20px;
 }
 
 #About {
@@ -105,6 +113,7 @@ margin: 0.5px;
 .aboutintro {
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  
 }
 
 .aboutintro img{
