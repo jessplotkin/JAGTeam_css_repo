@@ -90,7 +90,7 @@ margin: 0.5px;
 }
 
 #About {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   text-align: center;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -146,4 +146,32 @@ width: fit-screen;
 .corevalues p:nth-child(4n + 3) { 
     background-color: #530303; 
     color: white; 
+}
+
+#Contacts {
+  /* font-family: Arial, sans-serif; */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.contact-section {
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-info div {
+  width: 48%;
+}
+
+h3 {
+  /* font-size: 1.1em; */
+  margin-bottom: 8px;
+  color: #530303;
+  
 }
