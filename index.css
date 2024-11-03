@@ -230,6 +230,9 @@ h3 {
   
 }
 
+#Events{
+  color: white;
+}
 
 #Events h2{
   text-align: center;
@@ -237,9 +240,4 @@ h3 {
 
 #Events img{
   float: right;
-}
-
-#Events, .event1, .event2, .event3, .event4, .event5, .event6, .event7, .event8, .event9, .event10, .event11{
-  color: white;
-  text-align: left;
 }
