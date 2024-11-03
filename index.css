@@ -202,6 +202,11 @@ ul li a {
     border-radius: 15px;
 }
 
+.statements {
+  position: relative;
+  margin-top: -300px;
+}
+
 #Contacts {
   /* font-family: Arial, sans-serif; */
   margin: 0 auto;
@@ -223,21 +228,47 @@ ul li a {
   width: 48%;
 }
 
-h3 {
+.contact-info h3 {
   /* font-size: 1.1em; */
   margin-bottom: 8px;
   color: #530303;
   
 }
 
-#Events{
+#Events {
+  padding: 20px;
   color: white;
 }
 
-#Events h2{
-  text-align: center;
+.event-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.event-list {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.event {
+  margin-bottom: 20px;
+}
+
+.event h3 {
+  margin: 0 0 10px;
+}
+
+.event-images {
+  flex: 1;
+}
+
+.event-images img {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 #Events img{
-  float: right;
+  height: auto;
+  width: 50%;
 }
