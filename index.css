@@ -2,21 +2,21 @@ html{
     scroll-behavior: smooth;
   }
   
-  body{
-background-color: #560525;
-margin: 0.5px;
-  }
+body{
+  background-color: #560525;
+  margin: 0.5px;
+}
 
-  .header-navbar {
-    display: flex;
-    background-color: #560525;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+.header-navbar {
+  display: flex;
+  background-color: #560525;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
   .header-navbar h1 {
     color: #f7f7f7;
@@ -96,6 +96,14 @@ margin: 0.5px;
   display: inline-block;
 }
 
+.dropdown a{
+  color: #ddd;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: chocolate;
+}
+
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
@@ -170,20 +178,29 @@ margin: 0.5px;
   align-items: center;
   text-align: center;
   justify-content: center;
-height: 100%;  
-width: fit-screen;
+  height: 100%;  
+  width: fit-screen;
+}
+
+.corevalues img{
+  height: auto;
+  width: 75%;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 .corevalues p:nth-child(4n + 1), 
 .corevalues p:nth-child(4n + 4) { 
     background-color: lightgrey; 
     color: #530303; 
+    border-radius: 15px;
 }
 
 .corevalues p:nth-child(4n + 2), 
 .corevalues p:nth-child(4n + 3) { 
     background-color: #530303; 
-    color: white; 
+    color: white;
+    border-radius: 15px;
 }
 
 #Contacts {
@@ -212,4 +229,12 @@ h3 {
   margin-bottom: 8px;
   color: #530303;
   
+}
+
+#events{
+  float: left;
+}
+
+#events p{
+  color: white;
 }
