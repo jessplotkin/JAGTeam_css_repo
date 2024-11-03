@@ -18,47 +18,46 @@ body{
   width: 100%;
 }
 
-  .header-navbar h1 {
-    color: #f7f7f7;
-    top: 0;
-  }
+.header-navbar h1 {
+  color: #f7f7f7;
+  top: 0;
+}
   
-  h1 {
-    font-family: 'Playfair Display', serif;
-  }
+h1 {
+  font-family: 'Playfair Display', serif;
+}
   
-  .navbar {
-    display: flex;
-    justify-content: flex-end; 
-    /* background-color: lightgrey; */
-    padding: 10px;
-    
-  }
-
-  .navbar a {
-    color: white;
-  }
-  
-  .navbar a:hover {
-    background-color: lightgrey; 
-    color: black; 
+.navbar {
+  display: flex;
+  justify-content: flex-end; 
+  /* background-color: lightgrey; */
+  padding: 10px; 
 }
 
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 10px;
-      overflow: hidden;
-      display: flex; 
-      gap: 15px;
-    }
+.navbar a {
+  color: white;
+}
   
-  ul li a {
-      color: #f7f7f7;
-      text-decoration: none;
-      padding: 8px 16px; 
-      display: block;
-  }
+.navbar a:hover {
+  background-color: lightgrey; 
+  color: black; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  display: flex; 
+  gap: 15px;
+}
+  
+ul li a {
+  color: #f7f7f7;
+  text-decoration: none;
+  padding: 8px 16px; 
+  display: block;
+}
 
 
   #Home {
@@ -79,9 +78,9 @@ body{
 
 #Home p:nth-child(4n + 1), /* Gray for the first cell of odd rows */
 #Home p:nth-child(4n + 4) { /* Gray for the second cell of even rows */
-    background-color: gray; /* Gray color */
-    color: #f7f7f7; /* Text color */
-    border-radius: 20px;
+  background-color: gray; /* Gray color */
+  color: #f7f7f7; /* Text color */
+  border-radius: 20px;
 }
 
 #Home p:nth-child(4n + 2), /* White for the second cell of odd rows */
@@ -231,10 +230,16 @@ h3 {
   
 }
 
-#events{
-  float: left;
+
+#Events h2{
+  text-align: center;
 }
 
-#events p{
+#Events img{
+  float: right;
+}
+
+#Events, .event1, .event2, .event3, .event4, .event5, .event6, .event7, .event8, .event9, .event10, .event11{
   color: white;
+  text-align: left;
 }
