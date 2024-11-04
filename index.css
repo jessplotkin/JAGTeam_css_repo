@@ -283,68 +283,59 @@ ul li a {
 
 
 /* Media Queries */
-/* Phone */
-@media (max-width: 400px) { 
+@media (max-width: 768px) {
   .header-navbar {
       flex-direction: column;
-      padding: 5px;
+      align-items: flex-start;
   }
 
   .navbar {
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
   }
 
   .aboutintro {
-      grid-template-columns: 1fr; /* Stack images and text */
+      grid-template-columns: 1fr; /* Stack items vertically on mobile */
   }
 
   .corevalues {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
-  }
-
-  .corevalues p {
-    font-size: 16px; /* Slightly larger text */
+      grid-template-columns: 1fr; /* Stack items vertically on mobile */
   }
 
   .contact-info {
-      flex-direction: column; /* Stack contact info vertically */
+      flex-direction: column; /* Stack contact info vertically on mobile */
+  }
+
+  .contact-info div {
+      width: 100%; /* Full width on mobile */
+  }
+
+  #Home p {
+      flex-direction: column; /* Stack paragraphs vertically on mobile */
+      width: 100%;
   }
 
   .event-container {
-      flex-direction: column; /* Stack events vertically */
+      flex-direction: column; /* Stack events vertically on mobile */
   }
 
-  #Home p {
-      font-size: 14px; /* Smaller text for mobile */
-      padding: 10px;
-  }
-}
-
-/* Laptop */
-@media (min-width: 1501px) {
-  .header-navbar {
-      padding: 20px; /* Larger padding for larger screens */
+  #About h2, #About h3 {
+      font-size: 20px; /* Adjust font size for mobile */
   }
 
-  .aboutintro img {
-      width: 600px; /* Adjust image size for larger screens */
+  .navbar a {
+      padding: 10px; /* Larger touch targets */
   }
 
-  .corevalues {
-    grid-template-columns: repeat(2, 1fr); /* Keep 2 columns */
+  .dropdown-content {
+      min-width: 200px; /* Adjust dropdown width for mobile */
   }
 
-  .corevalues p {
-    font-size: 18px; /* Larger text */
+  #FAQ img {
+      width: 100%; /* Full width on mobile */
   }
 
-  .contact-info {
-      flex-direction: row; /* Horizontal layout for larger screens */
-  }
-
-  #Home p {
-      font-size: 18px; /* Larger text for desktop */
-      padding: 15px;
+  #Events img {
+      width: 100%; /* Full width on mobile */
   }
 }
