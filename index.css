@@ -39,8 +39,10 @@ h1 {
 }
   
 .navbar a:hover {
-  background-color: lightgrey; 
-  color: black; 
+  background-color: #560525; 
+  color: white; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
 ul {
@@ -203,7 +205,7 @@ ul li a {
 }
 
 .statements {
-  position: relative;
+  /* position: relative; */
   margin-top: -300px;
 }
 
@@ -212,6 +214,7 @@ ul li a {
   margin: 0 auto;
   padding: 20px;
   background-color: white;
+  color: #530303;
 }
 
 .contact-section {
@@ -244,6 +247,7 @@ ul li a {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .event-list {
@@ -253,6 +257,10 @@ ul li a {
 
 .event {
   margin-bottom: 20px;
+  padding: 20px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ffffff;
 }
 
 .event h3 {
@@ -271,4 +279,8 @@ ul li a {
 #Events img{
   height: auto;
   width: 50%;
+}
+
+#FAQ {
+  color: white;
 }
