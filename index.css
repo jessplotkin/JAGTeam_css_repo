@@ -300,7 +300,11 @@ ul li a {
   }
 
   .corevalues {
-      grid-template-columns: 1fr; /* Stack core values */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
+
+  .corevalues p {
+    font-size: 16px; /* Slightly larger text */
   }
 
   .contact-info {
@@ -327,8 +331,12 @@ ul li a {
       width: 600px; /* Adjust image size for larger screens */
   }
 
-  .corevalues img {
-      width: 80%; /* Adjust core values image size */
+  .corevalues {
+    grid-template-columns: repeat(2, 1fr); /* Keep 2 columns */
+  }
+
+  .corevalues p {
+    font-size: 18px; /* Larger text */
   }
 
   .contact-info {
