@@ -1,0 +1,273 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+body{
+  background-color: #560525;
+  margin: 0.5px;
+}
+
+.header-navbar {
+  display: flex;
+  background-color: #560525;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-navbar h1 {
+  color: #f7f7f7;
+  top: 0;
+}
+  
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+  
+.navbar {
+  display: flex;
+  justify-content: flex-end; 
+  /* background-color: lightgrey; */
+  padding: 10px; 
+}
+
+.navbar a {
+  color: white;
+}
+  
+.navbar a:hover {
+  background-color: lightgrey; 
+  color: black; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  display: flex; 
+  gap: 15px;
+}
+  
+ul li a {
+  color: #f7f7f7;
+  text-decoration: none;
+  padding: 8px 16px; 
+  display: block;
+}
+
+
+  #Home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imgsprovided/schedule/Steamboat-Springs-Alpenglow-720x400-1.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+  #Home p {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  height:80%;
+  width: 95%;
+  }
+
+#Home p:nth-child(4n + 1), /* Gray for the first cell of odd rows */
+#Home p:nth-child(4n + 4) { /* Gray for the second cell of even rows */
+  background-color: gray; /* Gray color */
+  color: #f7f7f7; /* Text color */
+  border-radius: 20px;
+}
+
+#Home p:nth-child(4n + 2), /* White for the second cell of odd rows */
+#Home p:nth-child(4n + 3) { /* White for the first cell of even rows */
+    background-color: white; /* White color */
+    color: #530303; /* Text color */
+    border-radius: 20px;
+}
+/* Container for dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown a{
+  color: #ddd;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: chocolate;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Dropdown content items */
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show dropdown content when hovering over dropdown container */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-content p:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+
+#About {
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#About h2, #About h3 {
+  color: #530303;
+  font-size: 25px;
+}
+
+
+.aboutintro {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+
+.aboutintro img{
+  align-self: center;
+  justify-self: center;
+  width: 500px;
+  height: auto;
+}
+
+.aboutintro p {
+  height: 100%;
+  padding: 22px;
+}
+
+.corevalues {
+  display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(6,1fr);
+  
+}
+
+.corevalues p {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;  
+  width: fit-screen;
+}
+
+.corevalues img{
+  height: auto;
+  width: 75%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.corevalues p:nth-child(4n + 1), 
+.corevalues p:nth-child(4n + 4) { 
+    background-color: lightgrey; 
+    color: #530303; 
+    border-radius: 15px;
+}
+
+.corevalues p:nth-child(4n + 2), 
+.corevalues p:nth-child(4n + 3) { 
+    background-color: #530303; 
+    color: white;
+    border-radius: 15px;
+}
+
+.statements {
+  margin-top: -300px;
+}
+
+#Contacts {
+  /* font-family: Arial, sans-serif; */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.contact-section {
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-info div {
+  width: 48%;
+}
+
+.contact-info h3 {
+  /* font-size: 1.1em; */
+  margin-bottom: 8px;
+  color: #530303;
+  
+}
+
+#Events {
+  padding: 20px;
+  color: white;
+}
+
+.event-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.event-list {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.event {
+  margin-bottom: 20px;
+}
+
+.event h3 {
+  margin: 0 0 10px;
+}
+
+.event-images {
+  flex: 1;
+}
+
+.event-images img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#Events img{
+  height: auto;
+  width: 50%;
+}
