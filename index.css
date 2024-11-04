@@ -323,9 +323,9 @@ ul li a {
       font-size: 20px; /* Adjust font size for mobile */
   }
 
-    .aboutintro p{
-      text-align: left;
-    }
+  .aboutintro {
+    grid-template-columns: 1fr; /* Stack items vertically on mobile */
+  }
 
   .navbar a {
       padding: 10px; /* Larger touch targets */
