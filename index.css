@@ -206,7 +206,8 @@ ul li a {
 }
 
 .statements { /*This fixed the issue of spacing with the statements section*/
-  margin-top: -100px;
+  margin-top: -10px;
+  padding: 10px;
 }
 
 #Contacts { /*Contact section*/
