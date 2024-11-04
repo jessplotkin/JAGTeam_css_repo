@@ -166,6 +166,7 @@ ul li a {
   padding: 22px;
 }
 
+/* core values section, uses grids */
 .corevalues {
   display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -204,13 +205,11 @@ ul li a {
     border-radius: 15px;
 }
 
-.statements {
-  /* position: relative; */
+.statements { /*This fixed the issue of spacing with the statements section*/
   margin-top: -300px;
 }
 
-#Contacts {
-  /* font-family: Arial, sans-serif; */
+#Contacts { /*Contact section*/
   margin: 0 auto;
   padding: 20px;
   background-color: white;
@@ -238,7 +237,7 @@ ul li a {
   
 }
 
-#Events {
+#Events { /*event section*/
   padding: 20px;
   color: white;
 }
@@ -285,8 +284,16 @@ ul li a {
   color: white;
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 400px) {
+#FAQ img{
+  height: auto;
+  width: 50%;
+}
+
+
+
+/* Media Queries */
+/* Phone */
+@media (max-width: 400px) { 
   .header-navbar {
       flex-direction: column;
       padding: 5px;
@@ -319,6 +326,7 @@ ul li a {
   }
 }
 
+/* Laptop */
 @media (min-width: 1501px) {
   .header-navbar {
       padding: 20px; /* Larger padding for larger screens */
