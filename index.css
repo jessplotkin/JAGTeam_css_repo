@@ -183,5 +183,88 @@ width: fit-screen;
 .corevalues p:nth-child(4n + 2), 
 .corevalues p:nth-child(4n + 3) { 
     background-color: #530303; 
-    color: white; 
+    color: white;
+    border-radius: 15px;
 }
+
+.statements {
+  /* position: relative; */
+  margin-top: -300px;
+}
+
+#Contacts {
+  /* font-family: Arial, sans-serif; */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  color: #530303;
+}
+
+.contact-section {
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-info div {
+  width: 48%;
+}
+
+.contact-info h3 {
+  /* font-size: 1.1em; */
+  margin-bottom: 8px;
+  color: #530303;
+  
+}
+
+#Events {
+  padding: 20px;
+  color: white;
+}
+
+.event-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.event-list {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.event {
+  margin-bottom: 20px;
+  padding: 20px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ffffff;
+}
+
+.event h3 {
+  margin: 0 0 10px;
+}
+
+.event-images {
+  flex: 1;
+}
+
+.event-images img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#Events img{
+  height: auto;
+  width: 50%;
+}
+
+#FAQ {
+  color: white;
+}
+
