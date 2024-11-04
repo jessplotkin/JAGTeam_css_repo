@@ -315,13 +315,6 @@ ul li a {
       font-size: 14px; /* Smaller text for mobile */
       padding: 10px;
   }
-  .statements {
-    margin-top: 0; /* Reset negative margin */
-    padding: 20px; /* Add some padding to keep it from touching other elements */
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center align items */
-}
 }
 
 /* Laptop */
