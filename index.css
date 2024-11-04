@@ -321,8 +321,11 @@ ul li a {
 
   #About h2, #About h3 {
       font-size: 20px; /* Adjust font size for mobile */
-      float: left;
   }
+
+    .aboutintro p{
+      text-align: left;
+    }
 
   .navbar a {
       padding: 10px; /* Larger touch targets */
