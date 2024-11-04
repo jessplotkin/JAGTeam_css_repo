@@ -321,6 +321,7 @@ ul li a {
 
   #About h2, #About h3 {
       font-size: 20px; /* Adjust font size for mobile */
+      float: left;
   }
 
   .navbar a {
