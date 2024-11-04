@@ -280,8 +280,6 @@ ul li a {
   width: 50%;
 }
 
-
-
 /* Media Queries */
 @media (max-width: 768px) {
   .header-navbar {
