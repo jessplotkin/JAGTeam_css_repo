@@ -345,7 +345,10 @@ ul li a {
   }
 
   #About p{
-    margin-right: 20px;
+    max-width: 90%;  /* Reduce the max width on mobile */
+    padding: 15px;   /* Adjust padding for mobile */
+    text-align: left; /* Keep text aligned left on mobile */
+    margin: 0 auto;   /* Center the paragraph */
   }
 
   .aboutintro {
