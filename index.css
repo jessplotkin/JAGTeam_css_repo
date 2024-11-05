@@ -344,13 +344,6 @@ ul li a {
       font-size: 20px; /* Adjust font size for mobile */
   }
 
-  #About p{
-    max-width: 90%;  /* Reduce the max width on mobile */
-    padding: 15px;   /* Adjust padding for mobile */
-    text-align: left; /* Keep text aligned left on mobile */
-    margin: 0 auto;   /* Center the paragraph */
-  }
-
   .aboutintro {
     grid-template-columns: 1fr; /* Stack items vertically on mobile */
   }
