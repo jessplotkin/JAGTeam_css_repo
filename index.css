@@ -319,7 +319,8 @@ ul li a {
   }
 
   .statements{
-
+    margin: -100px;
+    padding: 10px;
   }
 
   .contact-info {
