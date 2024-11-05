@@ -318,9 +318,9 @@ ul li a {
       grid-template-columns: 1fr; /* Stack items vertically on mobile */
   }
 
-  .statements{
-    margin: 100px;
-    padding: 40px;
+  .statements {
+    margin-top: -100px; /* Adjust this as necessary */
+    padding: 5px; /* Adjust padding for smaller screens */
   }
 
   .contact-info {
