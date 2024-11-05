@@ -285,6 +285,8 @@ ul li a {
 #FAQ img{
   height: auto;
   width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Media Queries */
