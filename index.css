@@ -213,8 +213,8 @@ ul li a {
 #Contacts { /*Contact section*/
   margin: 0 auto;
   padding: 20px;
-  background-color: white;
-  color: #530303;
+  background-color: #560525;
+  color: white;
 }
 
 .contact-section {
@@ -234,7 +234,7 @@ ul li a {
 .contact-info h3 {
   /* font-size: 1.1em; */
   margin-bottom: 8px;
-  color: #530303;
+  color: white;
   
 }
 
@@ -273,7 +273,9 @@ ul li a {
 }
 
 #FAQ {
-  color: white;
+  color: #560525;
+  background-color: white;
+  padding: 20px;
 }
 
 #FAQ img{
