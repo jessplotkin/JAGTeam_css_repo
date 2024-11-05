@@ -80,8 +80,8 @@ ul li a {
 
 #Home p:nth-child(4n + 1), /* Gray for the first cell of odd rows */
 #Home p:nth-child(4n + 4) { /* Gray for the second cell of even rows */
-  background-color: gray; /* Gray color */
-  color: #f7f7f7; /* Text color */
+  background-color: rgb(255, 255, 255); /* Gray color */
+  color: #530303; /* Text color */
   border-radius: 20px;
 }
 
@@ -344,6 +344,8 @@ ul li a {
 
   .dropdown-content {
       min-width: 200px; /* Adjust dropdown width for mobile */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   }
 
   #FAQ img {
@@ -353,4 +355,11 @@ ul li a {
   #Events img {
       width: 100%; /* Full width on mobile */
   }
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black; 
 }
