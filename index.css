@@ -344,6 +344,10 @@ ul li a {
       font-size: 20px; /* Adjust font size for mobile */
   }
 
+  #About p{
+    margin-right: 20px;
+  }
+
   .aboutintro {
     grid-template-columns: 1fr; /* Stack items vertically on mobile */
   }
