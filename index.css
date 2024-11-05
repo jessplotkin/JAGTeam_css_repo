@@ -211,7 +211,7 @@ ul li a {
 }
 
 .statements { /*This fixed the issue of spacing with the statements section*/
-  margin-top: -300px;
+  margin-top: -200px;
   padding: 10px;
 }
 
@@ -316,6 +316,10 @@ ul li a {
 
   .corevalues {
       grid-template-columns: 1fr; /* Stack items vertically on mobile */
+  }
+
+  .statements{
+
   }
 
   .contact-info {
