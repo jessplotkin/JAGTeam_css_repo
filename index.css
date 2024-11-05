@@ -361,10 +361,4 @@ ul li a {
       width: 100%; /* Full width on mobile */
   }
 }
-a {
-  text-decoration: none;
-  color: black;
-}
-a:visited {
-  color: black; 
-}
+
