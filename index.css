@@ -18,6 +18,8 @@ body{
   width: 100%;
 }
 
+
+
 .header-navbar h1 {
   color: #f7f7f7;
   top: 0;
@@ -37,7 +39,9 @@ h1 {
 .navbar a {
   color: white;
 }
-  
+
+
+
 .navbar a:hover {
   background-color: #560525; 
   color: white; 
@@ -52,6 +56,7 @@ ul {
   overflow: hidden;
   display: flex; 
   gap: 15px;
+  color: white;
 }
   
 ul li a {
@@ -356,10 +361,4 @@ ul li a {
       width: 100%; /* Full width on mobile */
   }
 }
-a {
-  text-decoration: none;
-  color: black;
-}
-a:visited {
-  color: black; 
-}
+
